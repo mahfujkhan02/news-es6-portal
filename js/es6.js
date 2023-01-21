@@ -100,5 +100,14 @@ let showmore = (details) => {
  </p>
   `;
 };
+// category list
 
+// sports
+document.getElementById("sports").addEventListener("click", function () {
+  let url = `https://openapi.programming-hero.com/api/news/category/04`;
+  fetch(url)
+    .then((res) => res.json())
+    .then((data) => cate(data.data));
+  spinnerLoading(true);
+});
   
