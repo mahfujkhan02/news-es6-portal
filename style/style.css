@@ -1,3 +1,21 @@
 .menu {
     margin-top: 50px;
   }
+
+  .icon span {
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 7px 10px;
+    color: white;
+  }
+  
+  .icon h4 {
+    color: orangered;
+  }
+  .home a {
+    margin-right: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+  }  
