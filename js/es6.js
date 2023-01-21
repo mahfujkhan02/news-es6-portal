@@ -71,4 +71,34 @@ let showMoreInfo = (id) => {
     .then((res) => res.json())
     .then((data) => showmore(data.data[0]));
 };
+
+
+// spinner loader
+
+let spinnerLoading = (spinner) => {
+  let loading = document.getElementById("spinner");
+
+  if (spinner) {
+    loading.classList.remove("d-none");
+  } else {
+    loading.classList.add("d-none");
+  }
+};
+// modal
+let showmore = (details) => {
+  console.log(details);
+  let modalBody = document.getElementById("modal");
+  modalBody.classList.add("p-4");
+  modalBody.classList.add("modalInfo");
+  modalBody.innerHTML = `
+  <img class="img" src = "${details.author.img}">
+  <h2>${details.title}</h2>
+  <p>Rating: <span>${details.rating.badge}</span></p>
+  <img src ="${details.image_url}">
+  <p class="card-text">
+  ${details.details}
+ </p>
+  `;
+};
+
   
