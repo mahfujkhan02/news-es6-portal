@@ -3,25 +3,25 @@
   }
 
   .icon span {
-    background-color: orangered;
+    background-color: cyan;
     border-radius: 5px;
     padding: 7px 10px;
-    color: white;
+    color: whitesmoke;
   }
   
   .icon h4 {
-    color: orangered;
+    color: royalblue;
   }
   .home a {
     margin-right: 15px;
     font-size: 22px;
     font-weight: 600;
-    color: black;
+    color: cyan;
     text-decoration: none;
   }
   
   .border-menu {
-    color: orangered;
+    color: rgb(94, 38, 18);
     margin-top: 50px;
   }
   
@@ -119,7 +119,7 @@
   
   .modalInfo span {
     font-weight: bold;
-    color: gray;
+    color: lightpink;
   }
   .modalInfo img {
     margin-bottom: 20px;
@@ -139,9 +139,9 @@
   .footer {
     text-align: center;
     height: 30px;
-    color: gray;
+    color: whitesmoke;
     height: auto;
-    background-color: gray;
+    background-color: cornsilk;
     margin: 0;
     border: 1px solid;
   }
@@ -152,6 +152,6 @@
     justify-content: center;
     margin-top: 15px;
   
-    color: black;
+    color: red;
   }
   

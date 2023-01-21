@@ -1,192 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
-
-    <!-- header added -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>News Bank</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
     <header>
-        <div class="menu">
-          <div class="container">
-            <div class="row d-flex justify-content-between">
-              <div class="col-xl-6 col-sm-6">
-                <div class="icon">
-                  <h4><span>News</span> Bank</h4>
-                </div>
-              </div>
-              <div class="col-xl-6 col-sm-6">
-                <div class="d-flex justify-content-end home">
-                  <a href="">News</a>
-                  <a href="answer.html" target="_blank">Blogs</a>
-                </div>
+      <div class="menu">
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+            <div class="col-xl-6 col-sm-6">
+              <div class="icon">
+                <h4><span>News</span> Bank</h4>
               </div>
             </div>
-            <hr class="border-menu" />
+            <div class="col-xl-6 col-sm-6">
+              <div class="d-flex justify-content-end home">
+                <a href="">News</a>
+                <a href="answer.html" target="_blank">Blogs</a>
+              </div>
+            </div>
+          </div>
+          <hr class="border-menu" />
+        </div>
+      </div>
+       
+       
+      
+      <!-- category section  -->
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="category">
+                <nav class="navbar navbar-expand-lg bg-light">
+                  <div class="container-fluid">
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarNavAltMarkup"
+                      aria-controls="navbarNavAltMarkup"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                      class="collapse navbar-collapse"
+                      id="navbarNavAltMarkup"
+                    >
+                      <div
+                        class="category-list navbar-nav d-flex justify-content-between"
+                      >
+                        <a
+                          id="home"
+                          class="nav-link active"
+                          aria-current="page"
+                          href="#"
+                          >Home</a
+                        >
+                        <a id="breakingNews" class="nav-link" href="#"
+                          >Breaking News</a
+                        >
+                        <a id="regular" class="nav-link" href="#"
+                          >Regular News</a
+                        >
+                        <a id="internationalNews" class="nav-link" href="#"
+                          >International news</a
+                        >
+                        <a id="sports" class="nav-link" href="#">Sports</a>
+                        <a id="entertainment" class="nav-link" href="#"
+                          >Entertainment
+                        </a>
+                        <a id="culture" class="nav-link" href="#">Culture</a>
+                        <a id="arts" class="nav-link" href="#">Arts</a>
+                        <a id="allnews" class="nav-link" href="#">All news</a>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
+    </header> 
 
-        <!-- catagory section added -->
-
-
-        <section>
-            <div class="container">
-              <div class="row">
-                <div class="col-xl-12">
-                  <div class="category">
-                    <nav class="navbar navbar-expand-lg bg-light">
-                      <div class="container-fluid">
-                        <button
-                          class="navbar-toggler"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#navbarNavAltMarkup"
-                          aria-controls="navbarNavAltMarkup"
-                          aria-expanded="false"
-                          aria-label="Toggle navigation"
-                        >
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div
-                          class="collapse navbar-collapse"
-                          id="navbarNavAltMarkup"
-                        >
-                          <div
-                            class="category-list navbar-nav d-flex justify-content-between"
-                          >
-                            <a
-                              id="home"
-                              class="nav-link active"
-                              aria-current="page"
-                              href="#"
-                              >Home</a
-                            >
-                            <a id="breakingNews" class="nav-link" href="#"
-                              >Breaking News</a
-                            >
-                            <a id="regular" class="nav-link" href="#"
-                              >Regular News</a
-                            >
-                            <a id="internationalNews" class="nav-link" href="#"
-                              >International news</a
-                            >
-                            <a id="sports" class="nav-link" href="#">Sports</a>
-                            <a id="entertainment" class="nav-link" href="#"
-                              >Entertainment
-                            </a>
-                            <a id="culture" class="nav-link" href="#">Culture</a>
-                            <a id="arts" class="nav-link" href="#">Arts</a>
-                            <a id="allnews" class="nav-link" href="#">All news</a>
-                          </div>
-                        </div>
-                      </div>
-                    </nav>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </header>
-
-        <main>
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-12">
-                <div class="total-items-count">
-                  <h4 id="news-numbers">4 items found</h4>
-                  <span>Items Found</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="trending-btn">
-            <div class="container">
-              <div class="row">
-                <div class="col-xl-6">
-                  <div class="sort-by">
-                    <p>Sort By View</p>
-                  </div>
-                </div>
-                <div class="col-xl-6">
-                  <div class="trending-button d-flex justify-content-end">
-                    <button class="tody me-3">Today’s Pick</button>
-                    <button class="trending">Trending</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-             <!-- Modal  -->
-      <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div id="modal" class="modal-content"></div>
-      </div>
-    </div>
-
-    <!--  loading spinner  -->
-    <section id="spinner" class="d-none">
+    <main>
       <div class="container">
         <div class="row">
-          <div class="col-xl-12 text-center">
-            <div class="spinner-border text-danger spinner" role="status">
-              <span class="visually-hidden">Loading...</span>
+          <div class="col-xl-12">
+            <div class="total-items-count">
+              <h4 id="news-numbers">4 items found</h4>
+              <span>Items Found</span>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-     <!-- News Container  -->
-     <div id="no-news" class="container d-none">
-      <div class="row text-center">
-        <div class="col-xl-12">
-          <div class="no-new">
-            <h1>No News Found</h1>
+      <div class="trending-btn">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6">
+              <div class="sort-by">
+                <p>Sort By View</p>
+              </div>
+            </div>
+            <div class="col-xl-6">
+              <div class="trending-button d-flex justify-content-end">
+                <button class="tody me-3">Today’s Pick</button>
+                <button class="trending">Trending</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <section>
-      <div class="container mt-5">
+     
+
+      <!-- Modal  -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div id="modal" class="modal-content"></div>
+        </div>
+      </div>
+      
+     
+
+      <!--  loading spinner  -->
+      <section id="spinner" class="d-none">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12 text-center">
+              <div class="spinner-border text-danger spinner" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+
+      <!-- News Container  -->
+      <div id="no-news" class="container d-none">
+        <div class="row text-center">
+          <div class="col-xl-12">
+            <div class="no-new">
+              <h1>No News Found</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-xl-12">
+              <div id="news-field"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+   
+
+    <footer class="footer">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-xl-12">
-            <div id="news-field"></div>
+            <p>Copyright 2021 News Portal</p>
           </div>
         </div>
       </div>
-    </section>
-  </main>
+    </footer>
 
-  <footer class="footer">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xl-12">
-          <p>Copyright 2021 News Portal</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-    crossorigin="anonymous"
-  ></script>
-  <script src="js/es6.js"></script>
-
-    
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/es6.js"></script>
+  </body>
 </html>
+
