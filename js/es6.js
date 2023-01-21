@@ -63,4 +63,12 @@ let loadData = () => {
       spinnerLoading(false);
     }
   };
+
+  // show more Details modal
+
+let showMoreInfo = (id) => {
+  fetch(`https://openapi.programming-hero.com/api/news/${id}`)
+    .then((res) => res.json())
+    .then((data) => showmore(data.data[0]));
+};
   
